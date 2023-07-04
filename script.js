@@ -9,11 +9,11 @@ for(var i = 0; i < list.length; i++) {
 }
 
 function plus(n, sum) {
-  for(i = 1; i <= n; i++){
+  for(let i = 1; i <= n; i++){
     sum += i;
   } 
   return sum
 }
 
-var sum1 = plus(100, 0)
+const sum1 = plus(100, 0)
 console.log(sum1)
